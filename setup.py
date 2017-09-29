@@ -12,7 +12,7 @@ setup(
 	long_description = open('README.txt').read(),
 
 	# LinLab at BCM
-	url='PUT GITHUB URL HERE',
+	url='https://github.com/linlabcode/moBamPlot',
 	download_url='PUT DOWNLOAD URL TO GITHUB HERE',
 
 	author='Monika Perez',
