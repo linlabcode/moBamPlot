@@ -1,7 +1,7 @@
 MOBAMPLOT
 =========
 
-moBamPlot is a tool create interactive graphs to plot bam read density at specific loci. moBamPlot is currently under development.
+moBamPlot is a tool to create interactive graphs and plot bam read density at specific loci. moBamPlot is currently under development.
 
 Install
 =======
