@@ -23,5 +23,5 @@ setup(
 	install_requires=[],
 	extras_require={},
 
-	scripts=['scripts/getCountVectorData.py','scripts/moBamPlot.py']
+	scripts=['moBamPlot/getCountVectorData.py','moBamPlot/moBamPlot.py']
 )
