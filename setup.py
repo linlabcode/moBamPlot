@@ -20,11 +20,13 @@ setup(
 	packages=find_packages(),
 
 	install_requires=[
-		"plastid == 0.4.8",
+		"Pysam == 0.8.4",
+		"Cython = 0.22.0",
 		"numpy == 1.12.1",
 		"h5py == 2.7.0",
 		"scipy == 0.19.0",
-		"plotly == 2.0.15"
+		"plotly == 2.0.15",
+		"plastid == 0.4.8"
 	],
 	extras_require={},
 
