@@ -9,7 +9,7 @@ setup(
   name='moBamPlot',
 	version='0.1dev',
 	description='A Python program to plot bams.',
-	long_description = open('README.txt').read(),
+	long_description = open('README.md').read(),
 
 	# LinLab at BCM
 	url='https://github.com/linlabcode/moBamPlot',
