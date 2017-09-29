@@ -12,7 +12,6 @@ setup(
 
 	# LinLab at BCM
 	url='https://github.com/linlabcode/moBamPlot',
-	download_url='PUT DOWNLOAD URL TO GITHUB HERE',
 
 	author='Monika Perez',
 	author_email='mp22@bcm.edu',
