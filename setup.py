@@ -1,5 +1,4 @@
 """A tool to process and graph bam read density at specific loci.
-
 """
 import os
 
@@ -20,7 +19,13 @@ setup(
 
 	packages=find_packages(),
 
-	install_requires=[],
+	install_requires=[
+		"plastid == 0.4.8",
+		"numpy == 1.12.1",
+		"h5py == 2.7.0",
+		"scipy == 0.19.0",
+		"plotly == 2.0.15"
+	],
 	extras_require={},
 
 	scripts=['moBamPlot/getCountVectorData.py','moBamPlot/moBamPlot.py']
