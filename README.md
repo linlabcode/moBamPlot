@@ -7,7 +7,7 @@ Install
 =======
 
 ```
-pip install -e git+https://github.com/linlabcode/moBamPlot.git#egg=mobamplot
+pip install -e git+https://github.com/linlabcode/moBamPlot.git#egg=moBamPlot
 ```
 
 Dependencies
