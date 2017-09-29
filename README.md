@@ -7,7 +7,7 @@ Install
 =======
 
 ```
-insert install url here
+pip install -e git+https://github.com/linlab/mobamplot.git#egg=mobamplot
 ```
 
 Dependencies
