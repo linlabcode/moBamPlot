@@ -21,7 +21,7 @@ setup(
 
 	install_requires=[
 		"Pysam == 0.8.4",
-		"Cython = 0.22.0",
+		"Cython == 0.22.0",
 		"numpy == 1.12.1",
 		"h5py == 2.7.0",
 		"scipy == 0.19.0",
