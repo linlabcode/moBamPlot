@@ -1,13 +1,9 @@
 """A tool to process and graph bam read density at specific loci.
 """
 import os
-import pip
+
 
 from setuptools import setup, find_packages
-
-pip.main(['install', 'pysam == 0.8.4'])
-pip.main(['install', 'cython == 0.22.0'])
-pip.main(['install', 'numpy == 1.12.1'])
 
 setup(
   name='mobamplot',
@@ -22,6 +18,11 @@ setup(
 	author_email='mp22@bcm.edu',
 
 	packages=find_packages(),
+	
+	setup_requires=["numpy",
+			"cython",
+			"pysam"]
+			
 
 	install_requires=[
 		"h5py == 2.7.0",
