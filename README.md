@@ -1,19 +1,19 @@
 MOBAMPLOT
 =========
 
-moBamPlot is a tool to create interactive graphs and plot bam read density at specific loci. moBamPlot is currently under development.
+mobamplot is a tool to create interactive graphs and plot bam read density at specific loci. moBamPlot is currently under development.
 
 Install
 =======
 
 ```
-pip install -e git+https://github.com/linlabcode/moBamPlot.git#egg=moBamPlot
+pip install -e git+https://github.com/linlabcode/mobamplot.git#egg=mobamplot
 ```
 
 Dependencies
 ============
 
-moBamPlot requires:
+mobamplot requires:
 
   1. plastid
 
