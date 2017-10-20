@@ -8,7 +8,7 @@ from subprocess import check_call
 class PostInstallCommand(install):
     """Post-installation for installation mode."""
     def run(self):
-        check_call("sudo yum install plastid".split())
+        check_call("yum install plastid".split())
         install.run(self)
 
 setup(
