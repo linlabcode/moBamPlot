@@ -21,8 +21,7 @@ setup(
 	
 	setup_requires=[
 		"pysam == 0.8.4",
-		"cython == 0.22.0",
-		"numpy == 1.12.1"
+		"cython == 0.22.0"
 	],
 
 	install_requires=[
