@@ -5,7 +5,7 @@ import os
 from setuptools import setup, find_packages
 
 setup(
-  name='moBamPlot',
+  name='mobamplot',
 	version='0.1dev',
 	description='A Python program to plot bams.',
 	long_description = open('README.md').read(),
