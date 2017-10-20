@@ -5,6 +5,7 @@ import os
 from setuptools import setup, find_packages
 
 os.system("requiredprograminstall.sh")
+print("install")
 
 setup(
   name='mobamplot',
