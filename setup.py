@@ -26,7 +26,7 @@ setup(
 	packages=find_packages(),
 
 	install_requires=[
-		"numpy >= 2.9.0",
+		"numpy >= 1.9.0",
 		"Pysam >= 0.8.4",
 		"Cython >= 0.22.0",
 		"h5py == 2.7.0",
