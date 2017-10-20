@@ -5,9 +5,9 @@ import pip
 
 from setuptools import setup, find_packages
 
-pip.main(['install', 'pysam'])
-pip.main(['install', 'cython'])
-pip.main(['install', 'numpy'])
+pip.main(['install', 'pysam == 0.8.4'])
+pip.main(['install', 'cython == 0.22.0'])
+pip.main(['install', 'numpy == 1.12.1'])
 
 setup(
   name='mobamplot',
@@ -24,9 +24,6 @@ setup(
 	packages=find_packages(),
 
 	install_requires=[
-		"pysam == 0.8.4",
-		"cython == 0.22.0",
-		"numpy == 1.12.1",
 		"h5py == 2.7.0",
 		"scipy == 0.19.0",
 		"plotly == 2.0.15",
