@@ -18,11 +18,6 @@ setup(
 	author_email='mp22@bcm.edu',
 
 	packages=find_packages(),
-	
-	setup_requires=[
-		"pysam == 0.8.4",
-		"cython == 0.22.0"
-	],
 
 	install_requires=[
 		"pysam == 0.8.4",
