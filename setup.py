@@ -21,7 +21,7 @@ setup(
 	
 	setup_requires=["numpy",
 			"cython",
-			"pysam"]
+			"pysam"],
 			
 
 	install_requires=[
