@@ -1,9 +1,13 @@
 """A tool to process and graph bam read density at specific loci.
 """
 import os
+import pip
 
 from setuptools import setup, find_packages
 
+pip.main(['install', 'pysam'])
+pip.main(['install', 'cython'])
+pip.main(['install', 'numpy'])
 
 setup(
   name='mobamplot',
