@@ -8,12 +8,12 @@ from subprocess import check_call
 class PostInstallCommand(install):
     """Post-installation for installation mode."""
     def run(self):
-        check_call("apt-get install plastid".split())
+        check_call("yum install plastid".split())
         install.run(self)
 
 setup(
   name='mobamplot',
-	version='0.1dev',
+	version='0.1dev0',
 	description='A Python program to plot bams.',
 	long_description = open('README.md').read(),
 
