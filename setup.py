@@ -4,8 +4,6 @@ import os
 
 from setuptools import setup, find_packages
 
-os.system("requiredprograminstall.sh")
-print("install")
 
 setup(
   name='mobamplot',
@@ -20,10 +18,16 @@ setup(
 	author_email='mp22@bcm.edu',
 
 	packages=find_packages(),
+	
+	setup_requires=[
+		"pysam == 0.8.4",
+		"cython == 0.22.0",
+		"numpy == 1.12.1"
+	],
 
 	install_requires=[
-		"Pysam == 0.8.4",
-		"Cython == 0.22.0",
+		"pysam == 0.8.4",
+		"cython == 0.22.0",
 		"numpy == 1.12.1",
 		"h5py == 2.7.0",
 		"scipy == 0.19.0",
