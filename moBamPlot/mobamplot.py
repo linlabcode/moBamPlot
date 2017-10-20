@@ -32,7 +32,6 @@ from plastid.util.io.openers import get_short_name
 from plastid.util.io.filters import NameDateWriter
 from plastid.util.scriptlib.help_formatters import format_module_docstring
 
-# python moBamPlot.py --hdf5 ../countFiles/skeratinocyte_genes.hdf5 --outfolder ../figures --line --viewplot --binsize 25
 
 # ignore and do not print any occurences of matching warnings
 warnings.simplefilter("ignore")
@@ -413,9 +412,6 @@ def main(args=sys.argv[1:]):
 	else:
 		plotDataLine(hdf5, filetype, outfolder, viewplot, binsize)
 	return
-
-#python moBamPlot.py --bed ../skeratinocyte_genes.bed --bamfiles /media/monika/My\ Passport/bams/Old_H3K27ac_1-1.hg19.bwt2.sorted.bam
-# --outfolder ../figures --callFunc --bamIDs O_H3K27ac_1 O_H3K27ac_2 O_H3K27ac_3 --binsize 50 --line --viewplot
 
 if __name__ == "__main__":
 	main()
