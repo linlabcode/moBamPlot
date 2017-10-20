@@ -5,12 +5,6 @@ from setuptools import setup, find_packages
 from setuptools.command.install import install
 from subprocess import check_call
 
-class PostInstallCommand(install):
-    """Post-installation for installation mode."""
-    def run(self):
-        check_call("yum install plastid".split())
-        install.run(self)
-
 setup(
   name='mobamplot',
 	version='0.1dev0',
@@ -35,7 +29,5 @@ setup(
 	],
 	extras_require={},
 
-	scripts=['moBamPlot/getCountVectorData.py','moBamPlot/moBamPlot.py'],
-	
-	cmdclass={'install': PostInstallCommand}
+	scripts=['moBamPlot/getCountVectorData.py','moBamPlot/moBamPlot.py']
 )
