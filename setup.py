@@ -32,5 +32,5 @@ setup(
 		"plotly == 2.0.15"
 	],
 
-	scripts=['moBamPlot/getcountvectordata.py','moBamPlot/mobamplot.py']
+	scripts=['mobamplot/getcountvectordata.py','mobamplot/mobamplot.py']
 )
