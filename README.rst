@@ -3,18 +3,18 @@ MoBamPlot
 =========
 
 
-.. image:: https://img.shields.io/pypi/v/mobample.svg
-        :target: https://pypi.python.org/pypi/mobample
+.. image:: https://img.shields.io/pypi/v/mobamplot.svg
+        :target: https://pypi.python.org/pypi/mobamplot
 
-.. image:: https://img.shields.io/travis/monikaperez/mobample.svg
-        :target: https://travis-ci.org/monikaperez/mobample
+.. image:: https://img.shields.io/travis/monikaperez/mobamplot.svg
+        :target: https://travis-ci.org/monikaperez/mobamplot
 
-.. image:: https://readthedocs.org/projects/mobample/badge/?version=latest
-        :target: https://mobample.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/mobamplot/badge/?version=latest
+        :target: https://mobamplot.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/monikaperez/mobample/shield.svg
-     :target: https://pyup.io/repos/github/monikaperez/mobample/
+.. image:: https://pyup.io/repos/github/linlabcode/mobamplot/shield.svg
+     :target: https://pyup.io/repos/github/linlabcode/mobamplot/
      :alt: Updates
 
 
@@ -22,7 +22,7 @@ A tool to create interactive graphs and plot bam read density at specific loci.
 
 
 * Free software: MIT license
-* Documentation: https://mobample.readthedocs.io.
+* Documentation: https://mobamplot.readthedocs.io.
 
 
 Features
