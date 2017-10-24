@@ -9,5 +9,5 @@ Development Lead
 
 Contributors
 ------------
-
-None yet. Why not be the first?
+* Selma Elsarrag
+* Charles Y. Lin
