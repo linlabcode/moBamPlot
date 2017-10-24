@@ -1,24 +1,28 @@
-"""A tool to process and graph bam read density at specific loci.
-"""
-import os
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""A tool to process and graph bam read density at specific loci."""
+
 from setuptools import setup, find_packages
-from setuptools.command.install import install
-from subprocess import check_call
+
+with open('README.rst') as readme_file:
+    readme = readme_file.read()
 
 setup(
   name='mobamplot',
-	version='0.1dev0',
+	version='0.1d.0',
 	description='A Python program to plot bams.',
-	long_description = open('README.md').read(),
+	long_description = readme,
 
 	# LinLab at BCM
-	url='https://github.com/linlabcode/moBamPlot',
+	url='https://github.com/linlabcode/mobamplot',
 
 	author='Monika Perez',
 	author_email='mp22@bcm.edu',
 
-	packages=find_packages(),
-
+	packages=find_packages(include=['mobamplot']),
+	
+	include_package_data=True,
 	install_requires=[
 		"numpy >= 1.9.0",
 		"Pysam >= 0.8.4",
@@ -27,7 +31,6 @@ setup(
 		"scipy == 0.19.0",
 		"plotly == 2.0.15"
 	],
-	extras_require={},
 
-	scripts=['moBamPlot/getCountVectorData.py','moBamPlot/mobamplot.py']
+	scripts=['moBamPlot/getcountvectordata.py','moBamPlot/mobamplot.py']
 )
