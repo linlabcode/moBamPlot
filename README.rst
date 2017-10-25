@@ -22,13 +22,14 @@ A tool to create interactive graphs and plot bam read density at specific loci.
 
 
 * Free software: MIT license
-* Documentation: https://mobamplot.readthedocs.io.
+* For documentation, see the home page on `ReadtheDocs <https://mobamplot.readthedocs.io>`_.
 
 
-Features
---------
+Introduction
+------------
 
-* TODO
+``mobamplot`` is a Python based tool used for genomic analysis. It was written by Monika Perez in `Charles Y. Lin's lab
+<https://www.charleslinlab.org>`_ at BCM, initially to create a replacement for `BamPlot <https://github.com/linlabbcm/bamplot>`_.
 
 Credits
 ---------
