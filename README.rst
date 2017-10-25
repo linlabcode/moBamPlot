@@ -32,7 +32,6 @@ Introduction
 <https://www.charleslinlab.org>`_ at BCM, initially to create a replacement for `BamPlot <https://github.com/linlabbcm/bamplot>`_.
 
 This package provides:
-
         1. A set of scripts to visualize sequencing data.
         
         2. A set of example input and output files.
