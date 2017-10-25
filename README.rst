@@ -31,6 +31,16 @@ Introduction
 ``mobamplot`` is a Python based tool used for genomic analysis. It was written by Monika Perez in `Charles Y. Lin's lab
 <https://www.charleslinlab.org>`_ at BCM, initially to create a replacement for `BamPlot <https://github.com/linlabbcm/bamplot>`_.
 
+This package provides:
+        #.A set of scripts to visualize sequencing data.
+        #.A set of example input and output files.
+
+Installation
+------------
+``mobamplot`` can be installed directly from PyPI, but requires that plastid be installed after i.e.::
+        $ pip install mobamplot
+        $ pip install plastid
+
 Credits
 ---------
 
