@@ -12,7 +12,7 @@ To install MoBamPlot, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install mobamplot
+     $ pip install git+https://github.com/linlabcode/mobamplot.git#egg=mobamplot
 
 This is the preferred method to install MoBamPlot, as it will always install the most recent stable release. 
 
