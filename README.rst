@@ -41,9 +41,9 @@ This package provides:
 Installation
 ------------
 
-``mobamplot`` can be installed directly from PyPI, but requires that plastid be installed after i.e.::
+``mobamplot`` can be installed using pip using the following code. MoBamPlot requires that plastid be installed after i.e.::
 
-        $ pip install mobamplot
+        $ pip install git+https://github.com/linlabcode/mobamplot.git#egg=mobamplot
         
         $ pip install plastid
 
